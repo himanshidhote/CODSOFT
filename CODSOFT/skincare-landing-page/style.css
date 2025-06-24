@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff0f5;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 70px;
+  width: auto;
+}
+
+.brand-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: #891175;
+  font-family:'Castellar', serif;
+}
+
+header {
+  background: #f37bc7;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #980582;
+  font-family:'Castellar', serif;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #333;
+}
+nav a:hover {
+  color: #d63384;
+}
+
+.hero {
+  background: url('skincare-banner.jpg') center/cover no-repeat;
+  padding: 5rem 2rem;
+  text-align: center;
+  color: rgb(244, 197, 103);
+}
+.hero h1 {
+  font-size: 3rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.hero button {
+  padding: 0.7rem 2rem;
+  background: #d63384;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.hero button:hover {
+  background: #a91c63;
+}
+
+.products {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.product-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.product-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 1rem;
+}
+.product-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+.product-card h3 {
+  color: #d63384;
+}
+
+.about, .contact {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #fff5f7;
+}
+footer {
+  background: #d63384;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
